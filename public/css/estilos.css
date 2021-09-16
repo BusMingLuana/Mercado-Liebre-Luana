@@ -1,0 +1,711 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 12px;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+<<<<<<< HEAD
+=======
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+
+.titular {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.textos {
+    font-size: 16px;
+    opacity: 100%;
+    transition: opacity, 0.9s;
+}
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+
+
+
+
+/*Header*/
+
+header {
+    background-color: #eac926;
+}
+
+header p, ul {
+    margin: 10px;
+}
+
+header nav {
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.busqueda {
+    display: flex;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icono-hamburger {
+    text-align: center;
+}
+
+.icono-hamburger i {
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.logo {
+    width: 50%;
+    padding: 10px;
+}
+
+
+.lista {
+    display: none;
+    transition: display, 0.2;
+}
+
+
+.lista i{
+    margin: 5px;
+}
+
+.lista i:hover{
+    color: blue;
+     font-size: 1.5rem;
+ }
+
+
+/*/Header*/
+
+
+
+
+.titulos-principales {
+    font-size: 24px;
+    padding: 20px;
+    text-align: left;
+    color: #666
+}
+
+.textos {
+    font-size: 16px;
+    opacity: 0%;
+    transition: opacity, 0.9s;
+}
+
+
+/* Articulos */
+main {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+
+<<<<<<< HEAD
+
+main .articles article {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    background-color: #ffffff;
+    color: #000000;
+=======
+main section article {
+    margin-top: 10px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+}
+
+
+
+.contenedorArticulo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 20px;
+
+
+}
+
+.camion {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+    transition: transform ,0.8s ;
+}
+
+
+<<<<<<< HEAD
+.precios{
+    width: 30%;
+=======
+.precios {
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+    font-size: 18px;
+ 
+   
+}
+
+.descuentos {
+    color: #39b54a;
+    width: 70%;
+    font-size: 16px;
+    text-shadow: 5px 5px 5px rgb(111, 199, 94);
+}
+.textos {
+    margin-bottom: 10px;
+    font-size: 16px;
+<<<<<<< HEAD
+    /* display: none; */
+=======
+    
+}
+
+.descuentos {
+    color: #39b54a;
+    width: 70px;
+    display: inline-block;
+    margin-left: 40px;
+
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+
+/* Hover */
+main .articles article:hover .textos{
+    opacity: 100%;
+} 
+ 
+main .articles article{
+ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ transition: box-shadow , 0.2s;
+} 
+
+
+ main .articles article:hover{
+     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     
+ }
+
+ main .articles  article:hover .camion{
+ transform: rotateZ(-90deg)
+}
+
+/* /Hover */
+/* /Articulos */
+
+
+
+/* /footer*/
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+.fa-credit-card {
+    font-size: 2rem;
+    color: #1259c3;
+    text-align: center;
+<<<<<<< HEAD
+    margin: 10px;
+}
+
+.fa-credit-card:hover{
+    color:rgb(126, 185, 233);
+    font-size: 2.5rem;
+=======
+    margin-bottom: 10px;
+    transition: color, 0.5s;
+    
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+.fa-gift {
+    font-size: 2rem;
+    color: #1259c3;
+    text-align: center;
+<<<<<<< HEAD
+    margin: 10px;
+}
+=======
+    margin-bottom: 10px;
+    transition: color, 0.5s;
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+.fa-gift:hover{
+    color:rgb(126, 185, 233);
+    font-size: 2.5rem;
+}
+
+.fa-user-shield {
+    font-size: 2rem;
+    color: #1259c3;
+    text-align: center;
+<<<<<<< HEAD
+    margin: 10px;
+=======
+    margin-bottom: 10px;
+    transition: color, 0.5s;
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+}
+.fa-user-shield:hover{
+    color:rgb(126, 185, 233);
+    font-size: 2.5rem;
+}
+
+.centerFooter {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* /footer*/
+
+
+
+
+<<<<<<< HEAD
+/* Formularios */
+=======
+/*-----------------Register html-----------------*/
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+.form-register {
+    width: 90%;
+<<<<<<< HEAD
+    margin: 0 auto;
+    padding: 5px 0px;
+=======
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent
+}
+
+.check-perfil input {
+    width: auto;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+<<<<<<< HEAD
+.radio-perfil {
+    display: flex;
+    width: 60%;
+    align-items: baseline;
+
+}
+
+.radio-perfil label {
+    display: contents;
+    border: 1px red solid;
+=======
+#btn-volver-login{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/*----------------- CSS REGISTER----------------------------*/
+
+.login {
+
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+.radio-perfil input {
+    text-align: left;
+}
+
+<<<<<<< HEAD
+.button-line {
+    margin-bottom: 5px;
+}
+
+.button-line button {
+    width: 49%;
+    display: inline;
+}
+
+.btn-danger {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    font-weight: 400;
+    border: 1px solid transparent;
+}
+
+.btn-success {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    font-weight: 400;
+    border: 1px solid transparent;
+=======
+#nombreUsuario{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#password-login{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#btn-volver-login{
+    margin-bottom: 5px;
+}
+
+#password2{
+    margin-bottom: 10px;
+}
+
+.btn-register{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+.btn-primary {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1259c3;
+    border-color: #3261a7;
+    font-weight: 400;
+    border: 1px solid transparent;
+}
+
+.btn-large {
+    width: 100%;
+}
+/* /Formulario */
+
+
+
+
+ /* /media queries */
+
+
+@media (min-width: 361px) {
+<<<<<<< HEAD
+=======
+    .textos {
+        opacity: 100%;;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+    .textos {
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+}
+
+
+@media (min-width: 769px) {
+    main .articles .product {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main .articles .product article {
+        width: 45%;
+    }
+   
+   
+    .textos {
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    /* Header */
+
+    header nav{
+        display: inline-block;
+    }
+
+
+    .logo {
+        width: 30%;
+    }
+
+    .fa-search {
+        background-color: #ebebeb;
+        padding: 4px;
+    }
+
+    .icono-hamburger {
+        display: none;
+    }
+    .centrado {
+       margin: 30px;
+    }
+
+    .lista{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu1 nav ul{
+        display: flex; 
+    }
+
+    .menu1 nav ul li{
+        padding: 0px 5px;
+    }
+
+    .menu2 nav ul{
+        display: flex;
+    }
+
+    .menu2 nav ul li{
+        padding: 0px 5px;
+    }
+
+<<<<<<< HEAD
+    
+    /* /Header */
+
+  
+
+=======
+    .textos {
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    main section article:hover .textos{
+       opacity: 100%;
+   } 
+    
+   main section article{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: box-shadow , 0.2s;
+} 
+  
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+
+    main section article:hover .camion{
+    transform: rotateZ(-90deg)
+ }
+
+
+.elementos-footer{
+    margin-top: 10px;
+    display: flex;
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+}
+
+@media (min-width: 1280px){
+
+    main .articles .product article {
+        width: 22%;
+    }
+
+       /* Header */
+    .logo {
+        width: 20%;
+    }
+
+<<<<<<< HEAD
+
+   .busqueda{
+      width: 70px;
+   }
+
+    .centrado {
+       font-size: 18px;
+    }
+
+
+    .menu1 nav ul li{
+       font-size: 16px;
+    }
+=======
+.fa-credit-card:hover{
+    color: #39b54a;
+}
+
+.fa-gift:hover{
+    color: #39b54a;
+}
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+ 
+    .menu2 nav ul li{
+      font-size: 16px;
+    }
+    /* /Header */
+
+<<<<<<< HEAD
+    .descuentos {
+        padding: 10px;
+    }
+=======
+/*register  @media 1280px */
+
+.formulario {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left:auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+/*Login  @media 1280px */
+
+.login {
+
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login input {
+    display: block;
+    
+}
+
+} 
+  
+
+
+
+>>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
