@@ -11,8 +11,7 @@ body {
     background-color: #ebebeb;
 }
 
-<<<<<<< HEAD
-=======
+
 p {
     font-size: 12px;
 }
@@ -33,7 +32,7 @@ h3 {
     opacity: 100%;
     transition: opacity, 0.9s;
 }
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
 
 
 
@@ -140,7 +139,7 @@ main {
 }
 
 
-<<<<<<< HEAD
+
 
 main .articles article {
     width: 90%;
@@ -148,23 +147,9 @@ main .articles article {
     margin: 10px auto;
     background-color: #ffffff;
     color: #000000;
-=======
-main section article {
-    margin-top: 10px;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    position: relative;
-    padding: 15px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
 
 }
-
-
 
 .contenedorArticulo{
     width: 100%;
@@ -195,16 +180,8 @@ main section article {
 }
 
 
-<<<<<<< HEAD
 .precios{
-    width: 30%;
-=======
-.precios {
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
-    font-size: 18px;
- 
-   
-}
+    width: 30%;}
 
 .descuentos {
     color: #39b54a;
@@ -214,11 +191,7 @@ main section article {
 }
 .textos {
     margin-bottom: 10px;
-    font-size: 16px;
-<<<<<<< HEAD
-    /* display: none; */
-=======
-    
+    font-size: 16px;    
 }
 
 .descuentos {
@@ -226,8 +199,6 @@ main section article {
     width: 70px;
     display: inline-block;
     margin-left: 40px;
-
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 }
 
 
@@ -277,31 +248,25 @@ footer {
     font-size: 2rem;
     color: #1259c3;
     text-align: center;
-<<<<<<< HEAD
     margin: 10px;
 }
 
 .fa-credit-card:hover{
     color:rgb(126, 185, 233);
     font-size: 2.5rem;
-=======
     margin-bottom: 10px;
     transition: color, 0.5s;
-    
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
 }
 
 .fa-gift {
     font-size: 2rem;
     color: #1259c3;
     text-align: center;
-<<<<<<< HEAD
     margin: 10px;
 }
-=======
-    margin-bottom: 10px;
-    transition: color, 0.5s;
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
+
 
 .fa-gift:hover{
     color:rgb(126, 185, 233);
@@ -312,13 +277,8 @@ footer {
     font-size: 2rem;
     color: #1259c3;
     text-align: center;
-<<<<<<< HEAD
     margin: 10px;
-=======
-    margin-bottom: 10px;
     transition: color, 0.5s;
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
-
 }
 .fa-user-shield:hover{
     color:rgb(126, 185, 233);
@@ -335,26 +295,13 @@ footer {
 
 
 
-<<<<<<< HEAD
+
 /* Formularios */
-=======
-/*-----------------Register html-----------------*/
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 
 .form-register {
     width: 90%;
-<<<<<<< HEAD
     margin: 0 auto;
     padding: 5px 0px;
-=======
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 }
 
 .form-control input {
@@ -373,7 +320,7 @@ footer {
     margin-right: 8px;
 }
 
-<<<<<<< HEAD
+
 .radio-perfil {
     display: flex;
     width: 60%;
@@ -384,38 +331,13 @@ footer {
 .radio-perfil label {
     display: contents;
     border: 1px red solid;
-=======
-#btn-volver-login{
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-
-/*----------------- CSS REGISTER----------------------------*/
-
-.login {
-
-    background-color: #ebebeb;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 }
 
 .radio-perfil input {
     text-align: left;
 }
 
-<<<<<<< HEAD
+
 .button-line {
     margin-bottom: 5px;
 }
@@ -443,31 +365,6 @@ footer {
     border-color: #4cae4c;
     font-weight: 400;
     border: 1px solid transparent;
-=======
-#nombreUsuario{
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-#password-login{
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-#btn-volver-login{
-    margin-bottom: 5px;
-}
-
-#password2{
-    margin-bottom: 10px;
-}
-
-.btn-register{
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 }
 
 .btn-primary {
@@ -492,8 +389,7 @@ footer {
 
 
 @media (min-width: 361px) {
-<<<<<<< HEAD
-=======
+
     .textos {
         opacity: 100%;;
     }
@@ -501,7 +397,6 @@ footer {
     main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 
     .textos {
         margin-bottom: 10px;
@@ -575,13 +470,10 @@ footer {
         padding: 0px 5px;
     }
 
-<<<<<<< HEAD
+
     
     /* /Header */
 
-  
-
-=======
     .textos {
         margin-bottom: 10px;
         font-size: 16px;
@@ -615,7 +507,7 @@ footer {
 .elementos-footer{
     margin-top: 10px;
     display: flex;
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
+
 }
 
 @media (min-width: 1280px){
@@ -629,8 +521,6 @@ footer {
         width: 20%;
     }
 
-<<<<<<< HEAD
-
    .busqueda{
       width: 70px;
    }
@@ -643,15 +533,6 @@ footer {
     .menu1 nav ul li{
        font-size: 16px;
     }
-=======
-.fa-credit-card:hover{
-    color: #39b54a;
-}
-
-.fa-gift:hover{
-    color: #39b54a;
-}
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
 
  
     .menu2 nav ul li{
@@ -659,28 +540,10 @@ footer {
     }
     /* /Header */
 
-<<<<<<< HEAD
     .descuentos {
         padding: 10px;
     }
-=======
-/*register  @media 1280px */
 
-.formulario {
-    background-color: #ebebeb;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left:auto;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 8px;
-}
-
-
-/*Login  @media 1280px */
 
 .login {
 
@@ -703,9 +566,4 @@ footer {
 }
 
 } 
-  
-
-
-
->>>>>>> 1cba27365af9a092eaf4d5aab099fa498b6f2726
-
+}
